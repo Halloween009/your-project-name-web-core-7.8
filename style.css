@@ -51,7 +51,6 @@ body {
 .icons-bottom {
   display: flex;
   align-items: center;
-  margin-left: 1.5em;
   gap: 1.5em;
 }
 .footer {
@@ -63,9 +62,8 @@ body {
 .lang {
   list-style-type: none;
   display: flex;
-  justify-content: start;
   gap: 1.5em;
-  translate: -15px;
+  padding-left: 0;
 }
 .lang__elem:hover {
   font-weight: bold;
